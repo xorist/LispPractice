@@ -12,6 +12,7 @@
 ; you can print formatted strings with the format procedure. It takes two paramters.
 ;; The first is either t or nil, t to tell the procedure to print the result, nil to return it as a string.
 ;; The second is a format string, which tells the format procedure how to print the result.
+;; The remaining parameters are the values to be printed.
 (format t "The answer is ~a" (* 2 3))
 
 ; you can also include ~% in the format string to give a line break.
