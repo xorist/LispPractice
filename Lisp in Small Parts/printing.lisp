@@ -17,3 +17,7 @@
 
 ; you can also include ~% in the format string to give a line break.
 (format t "The answer is ~a~%" (* 2 3))
+
+; use format to write a story-writing program.
+(defun story (name food color)
+    (format t "There was once a princess called ~a who liked ~a. One day ~a found some ~a ~a and ate so much that she died. The end." name food name color food))
